@@ -6,14 +6,18 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 
+import br.dev.julio.tarefas.model.Tarefa;
+
 public class Main {
 	
 	static String caminho = "/Users/25132583/tarefasDS1TA/tarefas";
 	
 	public static void main(String[] args) {
 		
-		escreverArquivo();
+		//vescreverArquivo();
 		//lerArquivo();
+		
+	Tarefa tarefa1 = new Tarefa("Lavar a Louça");
 		
 		
 	}
